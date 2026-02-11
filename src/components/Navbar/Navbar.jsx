@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Navbar = () => {
-
   const navLinks = [
     { href: "#about", label: "About" },
+    { href: "#expertise", label: "Expertise" },
+    { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
-    { href: "#contact", label: "Contact" },
   ];
 
   return (
-    <header className="w-full fixed top-0 border-1 border-b">
-      <div className="container flex justify-between mx-auto px-3 py-5 text-[#141e30] font-medium">
-        <p className="text-md">WilPhil</p>
-        <div className="text-sm flex gap-8">
+    <header className="w-full sticky top-0 z-50 shadow-lg bg-[#121212]">
+      <div className="max-w-6xl flex justify-between mx-auto px-6 py-5 text-[#d1d1d1] text-xs font-normal tracking-wide">
+        <span className="cursor-pointer">椿</span>
+        <div className="flex gap-8">
           {navLinks.map((link) => (
-            <a 
+            <a
               key={link.label}
               href={link.href}
               className="hover:opacity-70 transition duration-300 ease-in-out"
@@ -23,9 +23,9 @@ const Navbar = () => {
             </a>
           ))}
         </div>
-      </div>   
+      </div>
     </header>
-  )
-}
+  );
+};
 
 export default Navbar;
