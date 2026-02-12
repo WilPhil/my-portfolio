@@ -1,11 +1,99 @@
+import Deftection from "../../assets/deftection.png";
+import GithubIcon from "../../assets/GitHub_Invertocat_White.svg";
+import LiveIcon from "../../assets/code-white.svg";
+
 const Projects = () => {
   return (
     <section id="projects" className="w-full py-20">
-      <div className="max-w-6xl mx-auto px-6 py-32 flex flex-col-reverse gap-12">
-        <div className="max-w-2xl flex flex-col gap-4 mx-auto">
-          <div className="w-full space-y-4 text-justify-left">
-            <p className="text-[#B0B0B0] leading-relaxed">
-              This section will showcase my projects.
+      <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col-reverse gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 content-evenly">
+          <div className="w-full flex flex-col gap-4">
+            <div className="overflow-hidden rounded-lg">
+              <img
+                src={Deftection}
+                alt="Deftection"
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div className="flex justify-between">
+              <h3 className="text-xl text-[#e0e0e0] font-semibold ">
+                Deftection
+              </h3>
+              <div className="flex gap-3">
+                <a
+                  href="https://github.com/Satria0ibnu/deftection"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
+                >
+                  <img
+                    src={GithubIcon}
+                    alt="Github"
+                    className="w-6 h-6 hover:opacity-70 ease-in-out transition duration-300"
+                    title="Repository"
+                  />
+                </a>
+                {/* Demo not available yet */}
+                {/* <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
+                >
+                  <img
+                    src={LiveIcon}
+                    alt="Live Demo"
+                    className="w-6 h-6 hover:opacity-70 ease-in-out transition duration-300"
+                    title="Demo"
+                  />
+                </a> */}
+              </div>
+            </div>
+            <p className="text-xl text-[#b0b0b0]">
+              An AI-powered web application that detects defects in images using
+              machine learning models, built with Vue.js, Inertia, Laravel, and
+              Flask.
+            </p>
+          </div>
+          <div className="w-full flex flex-col gap-4">
+            <div className="overflow-hidden rounded-lg">
+              <img src={Deftection} alt="Deftection" />
+            </div>
+            <div className="flex justify-between">
+              <h3 className="text-xl text-[#e0e0e0] font-semibold ">
+                Project Name
+              </h3>
+              <div className="flex gap-3">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
+                >
+                  <img
+                    src={GithubIcon}
+                    alt="Github"
+                    className="w-6 h-6 hover:opacity-70 ease-in-out transition duration-300"
+                    title="Repo"
+                  />
+                </a>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
+                >
+                  <img
+                    src={LiveIcon}
+                    alt="Live Demo"
+                    className="w-6 h-6 hover:opacity-70 ease-in-out transition duration-300"
+                    title="Demo"
+                  />
+                </a>
+              </div>
+            </div>
+            <p className="text-xl text-[#b0b0b0]">
+              A web application built with react and firebase...
             </p>
           </div>
         </div>
