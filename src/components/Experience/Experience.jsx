@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <section id="experience" className="py-20">
-      <div className="max-w-6xl mx-auto px-6 py-32 flex gap-12">
+      <div className="max-w-6xl mx-auto px-6 py-6 flex gap-12">
         <div className="w-[40%] m-auto">
           <h2 className="text-4xl uppercase tracking-widest text-white mb-4 self-center ">
             <span className="text-purple-500">03</span> / Experience
@@ -15,7 +15,7 @@ const Experience = () => {
             <span className="text-sm text-[#888888] italic ">
               PT Bank Rakyat Indonesia (Persero) Tbk. | Sep 2024 - Dec 2024
             </span>
-            <ul className="list-disc pl-5 text-sm text-[#b0b0b0]">
+            <ul className="list-disc pl-5 text-sm text-[#888888]">
               <li>
                 Continued development and maintenance of internal web, focusing
                 on refactoring the admin side.
@@ -29,7 +29,7 @@ const Experience = () => {
                 criteria.
               </li>
             </ul>
-            <span className="text-sm text-[#b0b0b0] ">
+            <span className="text-md text-[#e0e0e0] leading-relaxed">
               Tools: Tailwind CSS, Alpine.js, Laravel, Livewire
             </span>
           </div>
@@ -40,7 +40,7 @@ const Experience = () => {
             <span className="text-sm text-[#888888] italic">
               PT Sinergi Insan Andalan (SIA) | Mar 2025 - Jun 2025
             </span>
-            <ul className="list-disc pl-5 text-sm text-[#b0b0b0]">
+            <ul className="list-disc pl-5 text-sm text-[#888888]">
               <li>
                 Developed company's landing page (Sinergi Life) using HTML,
                 Tailwind CSS, and Alpine.js.
@@ -54,7 +54,7 @@ const Experience = () => {
                 consistenly following design needs specifications.
               </li>
             </ul>
-            <span className="text-sm text-[#b0b0b0] ">
+            <span className="text-md text-[#e0e0e0] leading-relaxed">
               Tools: Tailwind CSS, Alpine.js, Laravel, jQuery
             </span>
           </div>

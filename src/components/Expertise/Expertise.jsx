@@ -1,7 +1,7 @@
 const Expertise = () => {
   return (
     <section id="expertise" className="w-full py-20">
-      <div className="max-w-6xl mx-auto py-32 px-6 grid md:grid-cols-[2fr_1fr] gap-12">
+      <div className="max-w-6xl mx-auto py-6 px-6 grid md:grid-cols-[2fr_1fr] gap-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
           <div className="border border-[#444444] p-6 rounded-lg shadow-lg">
             <h3 className="text-xl text-[#e0e0e0] font-semibold mb-4">
