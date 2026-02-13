@@ -4,6 +4,7 @@ import About from "./components/About/About.jsx";
 import Expertise from "./components/Expertise/Expertise.jsx";
 import Experience from "./components/Experience/Experience.jsx";
 import Projects from "./components/Projects/Projects.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           </p>
         </div>
         <Projects />
+        <Footer />
       </main>
     </div>
   );
