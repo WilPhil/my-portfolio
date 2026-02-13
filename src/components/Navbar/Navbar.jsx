@@ -54,7 +54,6 @@ const Navbar = () => {
   return (
     <header className="w-full sticky top-0 z-50 shadow-lg bg-[#121212]">
       <div className="max-w-6xl flex justify-between mx-auto px-6 py-5 text-[#d1d1d1] text-sm font-normal tracking-wide">
-        {/* Added onClick to the logo as well */}
         <a
           href="#home"
           onClick={(e) => handleScroll(e, "#home")}
@@ -71,10 +70,10 @@ const Navbar = () => {
               <a
                 key={link.label}
                 href={link.href}
-                onClick={(e) => handleScroll(e, link.href)} // Added the click handler here
+                onClick={(e) => handleScroll(e, link.href)}
                 className={`relative transition duration-300 ease-in-out hover:opacity-100
                            after:content-[''] after:absolute after:left-0 after:-bottom-1
-                           after:w-full after:h-[2px] after:bg-[#d1d1d1]
+                           after:w-full after:h-[2px] after:bg-purple-500
                            after:origin-center after:transition-transform after:duration-300
                            ${
                              isActive
