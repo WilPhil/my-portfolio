@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.dfadcada.css",
-    "main.js": "/my-portfolio/static/js/main.0b83deb6.js",
+    "main.css": "/my-portfolio/static/css/main.a6ba40a3.css",
+    "main.js": "/my-portfolio/static/js/main.13829d1b.js",
     "static/media/sinergilife2.png": "/my-portfolio/static/media/sinergilife2.4adb86707ab62c4b94f1.png",
     "static/media/Profile.jpg": "/my-portfolio/static/media/Profile.23fd495908261875dae5.jpg",
     "static/media/deftection.png": "/my-portfolio/static/media/deftection.4c333765b7a64c101328.png",
@@ -12,11 +12,11 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/code-white.svg": "/my-portfolio/static/media/code-white.1e05c9d4820360e9ecf6f99f1effc779.svg",
     "static/media/envelope-solid.svg": "/my-portfolio/static/media/envelope-solid.1ec4b7008ae4b0e7e2141f69d445dd9f.svg",
-    "main.dfadcada.css.map": "/my-portfolio/static/css/main.dfadcada.css.map",
-    "main.0b83deb6.js.map": "/my-portfolio/static/js/main.0b83deb6.js.map"
+    "main.a6ba40a3.css.map": "/my-portfolio/static/css/main.a6ba40a3.css.map",
+    "main.13829d1b.js.map": "/my-portfolio/static/js/main.13829d1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfadcada.css",
-    "static/js/main.0b83deb6.js"
+    "static/css/main.a6ba40a3.css",
+    "static/js/main.13829d1b.js"
   ]
 }
