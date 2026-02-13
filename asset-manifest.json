@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.dfadcada.css",
+    "main.js": "/my-portfolio/static/js/main.0b83deb6.js",
+    "static/media/sinergilife2.png": "/my-portfolio/static/media/sinergilife2.4adb86707ab62c4b94f1.png",
+    "static/media/Profile.jpg": "/my-portfolio/static/media/Profile.23fd495908261875dae5.jpg",
+    "static/media/deftection.png": "/my-portfolio/static/media/deftection.4c333765b7a64c101328.png",
+    "static/media/sapcompare.png": "/my-portfolio/static/media/sapcompare.a763def3c046623a32b5.png",
+    "static/media/tdcdashboard.png": "/my-portfolio/static/media/tdcdashboard.bdf78037b60ae4a5d33b.png",
+    "static/media/InBug-White.png": "/my-portfolio/static/media/InBug-White.183c507635f8f18f6138.png",
+    "static/media/GitHub_Invertocat_White.svg": "/my-portfolio/static/media/GitHub_Invertocat_White.af449656122efd92a74656c5818dd6ad.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/code-white.svg": "/my-portfolio/static/media/code-white.1e05c9d4820360e9ecf6f99f1effc779.svg",
+    "static/media/envelope-solid.svg": "/my-portfolio/static/media/envelope-solid.1ec4b7008ae4b0e7e2141f69d445dd9f.svg",
+    "main.dfadcada.css.map": "/my-portfolio/static/css/main.dfadcada.css.map",
+    "main.0b83deb6.js.map": "/my-portfolio/static/js/main.0b83deb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfadcada.css",
+    "static/js/main.0b83deb6.js"
+  ]
+}
