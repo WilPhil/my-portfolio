@@ -163,10 +163,10 @@ const Projects = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col mx-auto items-center gap-4">
+        <div className="flex flex-row md:flex-col md:mx-auto items-center gap-4">
           <span className="text-4xl text-purple-500">04</span>
-          <h2 className="text-4xl uppercase tracking-widest text-white mb-4 pt-4 self-center border-t">
-            Projects
+          <h2 className="text-4xl uppercase tracking-widest text-white mb-4 pt-4 self-center md:border-t">
+            <span className="md:hidden">/</span> Projects
           </h2>
         </div>
       </div>
