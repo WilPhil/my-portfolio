@@ -67,19 +67,6 @@ const Projects = () => {
                 TDC Dashboard
               </h3>
               <div className="flex gap-3">
-                <a
-                  href="https://github.com/UnFik/tdc-dashboard"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
-                >
-                  <img
-                    src={GithubIcon}
-                    alt="Github"
-                    className="w-6 h-6 hover:opacity-70 ease-in-out transition duration-300"
-                    title="Private Repository"
-                  />
-                </a>
                 {/* Demo not available yet */}
                 {/* <a
                   href=""
@@ -111,19 +98,6 @@ const Projects = () => {
                 SAP Compare
               </h3>
               <div className="flex gap-3">
-                <a
-                  href="https://github.com/UnFik/sap-compare"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
-                >
-                  <img
-                    src={GithubIcon}
-                    alt="Github"
-                    className="w-6 h-6 hover:opacity-70 ease-in-out transition duration-300"
-                    title="Private Repository"
-                  />
-                </a>
                 {/* Demo not available yet */}
                 {/* <a
                   href=""

@@ -1,13 +1,13 @@
 const Experience = () => {
   return (
     <section id="experience" className="py-20">
-      <div className="max-w-6xl mx-auto px-6 py-6 flex gap-12">
-        <div className="w-[40%] m-auto">
-          <h2 className="text-4xl uppercase tracking-widest text-white mb-4 self-center ">
+      <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-start gap-12">
+        <div className="md:w-[40%] md:my-auto">
+          <h2 className="text-4xl uppercase tracking-widest text-white mb-4 self-center">
             <span className="text-purple-500">03</span> / Experience
           </h2>
         </div>
-        <div className="w-[60%] flex flex-col gap-16 ">
+        <div className="md:w-[60%] flex flex-col gap-16">
           <div className="flex flex-col gap-4">
             <h3 className="text-xl text-[#e0e0e0] font-semibold ">
               Full Stack Developer Intern

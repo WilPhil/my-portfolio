@@ -62,7 +62,7 @@ const Navbar = () => {
           椿
         </a>
 
-        <div className="flex gap-8">
+        <div className="hidden md:flex gap-8">
           {navLinks.map((link) => {
             const isActive = activeSection === link.href.substring(1);
 
