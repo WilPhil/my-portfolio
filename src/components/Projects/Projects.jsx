@@ -24,7 +24,7 @@ const Projects = () => {
               </h3>
               <div className="flex gap-3">
                 <a
-                  href="https://github.com/Satria0ibnu/deftection"
+                  href="https://github.com/WilPhil/deftection"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
@@ -36,9 +36,8 @@ const Projects = () => {
                     title="Repository"
                   />
                 </a>
-                {/* Demo not available yet */}
-                {/* <a
-                  href=""
+                <a
+                  href="https://deftection.up.railway.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:text-cyan-300 transition duration-300 ease-in-out"
@@ -49,7 +48,7 @@ const Projects = () => {
                     className="w-6 h-6 hover:opacity-70 ease-in-out transition duration-300"
                     title="Demo"
                   />
-                </a> */}
+                </a>
               </div>
             </div>
             <p className="text-md text-[#b0b0b0] leading-relaxed">
